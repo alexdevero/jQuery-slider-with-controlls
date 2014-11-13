@@ -1,0 +1,58 @@
+/*=Typography=*/
+body {
+  font: 16px sans-serif;
+}
+h1 {
+  font-size: 1.75em;
+}
+h2 {
+  font-size: 1.25em;
+}
+.fa {
+  font-size: 4em;
+}
+/*=Layout=*/
+body {
+  color: #333;
+}
+.wrapper {
+  margin: auto;
+  width: 700px;
+}
+.bit-2 {
+  display: inline-block;
+  width: 49%;
+  vertical-align: top;
+}
+.fa {
+  position: relative;
+  top: 2em;
+  float: left;
+  cursor: pointer;
+  transition: color .25s;
+}
+.fa:hover {
+  color: #0086b3;
+}
+.fa-angle-left {
+  margin-right: .5em;
+  margin-left: .25em;
+}
+.slider {
+  position: relative;
+  float: left;
+  padding: 0;
+  margin: 0;
+  width: 600px;
+  list-style-type: none;
+}
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: #fff;
+}
+.fa-angle-right {
+  float: right;
+  margin-right: .25em;
+}
